@@ -1,0 +1,15 @@
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+img {
+    max-width: 350px;
+}
+
+#map > div.leaflet-pane.leaflet-map-pane > div.leaflet-pane.leaflet-popup-pane {
+    margin-top: 50px;
+}
